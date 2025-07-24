@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Abderrahmen</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+
+
+
+
+
+</head>
+
+<body id="top">
+<style>
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+  min-width: 100%;
+  height: auto;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+</style>
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Abderrahmen.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Abderrahmen.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h1 class="text-title">
+                            I’m Zarrouk Abderrahmen, <br>
+                            a passionate software engineer<br>
+                            based in Tunisia, <br> 
+                            crafting full-stack solutions <br>
+                            with clean code and modern design.
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                            <li><a href="https://www.linkedin.com/in/abderrahmen-zarrouk-7895541ba/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/abderrahmen_zarrouk/" target="_blank">Instagram</a></li>
+                            <li><a href="https://github.com/abderrahmenzarrouk" target="_blank">GitHub</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/abdou.png" 
+                             srcset="images/abdou.png 1x, images/abdou.png 2x" alt="" class="about-info__pic" data-animate-el style="width: 250% ; height: 250%;">
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                I'm Zarrouk Abderrahmen, a fresh software engineering graduate from Tunisia with a strong passion for building modern, scalable applications. During my studies, I specialized in development and cloud technologies, including DevOps practices.
+
+I enjoy working across the full stack, using tools like Angular, Spring Boot, Java, Python, and Docker, and I’m actively learning and applying CI/CD pipelines to streamline development. I love solving real-world problems through code and continuously push myself to learn new technologies and improve my skills.
+
+I'm open to exciting opportunities where I can contribute, grow, and be part of meaningful projects. Let’s build something amazing together!
+
+
+                            </p>
+                            <a href="files/abderrahmen-zarrouk.pdf" 
+                              class="btn btn--medium u-fullwidth" 
+                              data-animate-el 
+                              target="_blank"
+                              download="Abderrahmen_Zarrouk_CV.pdf">
+                              Download CV
+                            </a>
+
+
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Full-Stack Development</li>
+                            <li>API Design & Integration</li>
+                            <li>Cloud & DevOps</li>
+                            <li>Frontend Development</li>
+                            <li>Backend Development</li>
+                            <li>Database Design & SQL</li>
+                            <li>Problem Solving & Debugging</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Neoxam, Tunisia</h3>
+                                    <h5 class="timeline__meta">Full-Stack Developer & ML Intern</h5>
+                                    <p class="timeline__timeframe">February 2025 – July 2025</p>
+                                    <p class="timeline__timeframe">Technologies: Angular, Spring Boot, Python (scikit-learn), Flask, MySQL, Docker, Chart.js, Jenkins</p> 
+                                </div>
+                            <div class="timeline__desc">
+                            <p><strong>Description:</strong><br>
+                                Worked on the development of a complete system to optimize ticket management and assignee recommendation by leveraging Jira data and machine learning models.
+                            </p>
+                            <p><strong>Key Contributions:</strong></p>
+                            <ul>
+                                <li>Developed a full-stack web application using Angular (frontend) and Spring Boot (backend).</li>
+                                <li>Built an automated pipeline to extract, process, and analyze Jira tickets, focusing on modules, features, and ticket priorities.</li>
+                                <li>Implemented a machine learning model in Python with Flask to predict the most suitable assignee based on ticket attributes.</li>
+                                <li>Designed dynamic dashboards using Chart.js to display real-time performance metrics and analytics.</li>
+                                <li>Containerized the application using Docker and integrated a CI/CD pipeline for seamless deployment and updates.</li>
+                            </ul>
+                            </div>
+
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Neoxam Tunisie</h4>
+                                    <h5 class="timeline__meta">Full-Stack Developer Intern</h5>
+                                    <p class="timeline__timeframe">July 2024 – August 2024</p>
+                                    <p class="timeline__timeframe">Technologies: Angular, Spring Boot, Python, Docker, Jenkins, SonarQube, Chart.js</p> 
+                                </div>
+                            <div class="timeline__desc">
+                            <p><strong>Description:</strong><br>
+                                Led the development of a robust ticket management system to improve tracking and performance analysis within the organization. The application integrates with Jira to extract, analyze, and visualize ticket data, enabling better resource management and productivity tracking across software modules.
+                            </p>
+                            <p><strong>Key Responsibilities & Achievements:</strong></p>
+                            <ul>
+                                <li>Developed RESTful APIs with Spring Boot for Jira ticket CRUD operations, including advanced versioning, audit logs, and historical tracking.</li>
+                                <li>Designed an intuitive frontend with Angular for filtering, sorting, and visualizing tickets by status, priority, module, and assignee.</li>
+                                <li>Implemented dynamic data visualizations using Chart.js, including priority distributions, module-specific analyses, and team performance comparisons.</li>
+                                <li>Created Python scripts to analyze large Jira datasets, uncover trends, measure team productivity, and automate statistical reporting.</li>
+                                <li>Built a full CI/CD pipeline with Jenkins, integrating SonarQube for code quality and a Python data analysis step pre-deployment.</li>
+                                <li>Utilized Docker and Kubernetes to containerize and orchestrate microservices, ensuring scalable and efficient deployments across environments.</li>
+                            </ul>
+                            </div>
+
+                            </div>
+
+                                
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Digital Power Consulting, Tunisia</h4>
+                                    <h5 class="timeline__meta">Web Developer Intern</h5>
+                                    <p class="timeline__timeframe">June 2023 – August 2023 </p>
+                                    <p class="timeline__timeframe">Technologies: Angular, Spring Boot</p> 
+                                </div>
+                            <div class="timeline__desc">
+                            <p><strong>Description:</strong><br>
+                                Contributed to the design and development of a web application focused on restaurant evaluations. The app allows users to rate and review restaurants, providing an interactive and user-friendly experience.
+                            </p>
+                            <p><strong>Key Contributions:</strong></p>
+                            <ul>
+                                <li>Developed frontend components using <strong>Angular</strong> to create an intuitive user interface for submitting and browsing restaurant reviews.</li>
+                                <li>Built backend RESTful APIs with <strong>Spring Boot</strong> to manage data storage, retrieval, and business logic for restaurant ratings and feedback.</li>
+                                <li>Collaborated with the team to ensure seamless integration between frontend and backend, delivering a responsive and reliable application.</li>
+                            </ul>
+                            </div>
+
+
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">FCIT, Tunisia</h4>
+                                    <h5 class="timeline__meta">Web Development Intern</h5>
+                                    <p class="timeline__timeframe">February 2022 – May 2022</p>
+                                    <p class="timeline__timeframe">Technologies: Python, MEAN Stack (MongoDB, Express.js, Angular, Node.js)</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p><strong>Description:</strong><br>
+                                    Worked as a Web Development Intern contributing to the design and implementation of an educational platform aimed at test-taking and personalized training.
+                                    </p>
+                                    <p><strong>Key Tasks:</strong></p>
+                                    <ul>
+                                    <li>Developed Python scripts for web scraping to gather test questions from various sources.</li>
+                                    <li>Implemented a MEAN stack solution (MongoDB, Express.js, Angular, Node.js) for platform development.</li>
+                                    <li>Designed intuitive user interfaces with Angular for test taking and training roadmap visualization.</li>
+                                    <li>Created algorithms to analyze test results and recommend personalized training paths.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h4 class="timeline__title">Deepera.AI, Tunisia</h4>
+                            <h5 class="timeline__meta">Web Development Intern</h5>
+                            <p class="timeline__timeframe">July 2021 – August 2021</p>
+                            <p class="timeline__timeframe">Technologies: Python, Angular</p>
+                        </div>
+                        <div class="timeline__desc">
+                            <p><strong>Description:</strong><br>
+                            Contributed to the development of a trading data application by creating backend APIs and frontend interfaces to display real-time trading information.
+                            </p>
+                            <p><strong>Key Tasks:</strong></p>
+                            <ul>
+                            <li>Developed Python scripts for web scraping trading data from specific sources.</li>
+                            <li>Created RESTful APIs using Python to manage and manipulate trading data.</li>
+                            <li>Built interactive user interfaces with Angular for user-friendly trading information display.</li>
+                            <li>Integrated third-party APIs to enhance application functionality.</li>
+                            <li>Handled deployment and ongoing maintenance to ensure application availability and performance.</li>
+                            </ul>
+                        </div>
+                        </div>
+
+                                
+
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Private Higher School of Engineering and Technology (ESPRIT), Tunisia</h3>
+                                    <h5 class="timeline__meta">Engineering Degree in Computer Science</h5>
+                                    <p class="timeline__timeframe">2022 – 2025 </p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Specialized in software development and DevOps, focusing on full-stack development, cloud technologies, and modern software engineering practices.</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Higher Institute of Information and Communication Technologies (ISTIC), Tunisia</h4>
+                                    <h5 class="timeline__meta">Bachelor’s Degree in Computer Science</h5>
+                                    <p class="timeline__timeframe">2019 – 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Acquired broad knowledge across key areas of computer science including programming, databases, networking, software engineering, and information systems.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Lycée Bougarnine, Hammam-Lif, Tunisia</h4>
+                                    <h5 class="timeline__meta">BMathematics Baccalaureate</h5>
+                                    <p class="timeline__timeframe">2018 – 2019</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p> Strong foundation in mathematics and problem-solving, which paved the way for pursuing computer science.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+            <div class="row testimonials">
+    <h2 class="text-pretitle" data-animate-el>
+        Academic Projects
+    </h2>
+
+    <div class="column lg-12 ss-animated" data-animate-block>
+        <div class="swiper-container testimonial-slider" data-animate-el>
+            <div class="swiper-wrapper">
+
+                <!-- Project 1: OpenStack Cloud & Web App -->
+                <div class="testimonial-slider__slide swiper-slide">
+                    <div class="testimonial-slider__author">
+                        <cite class="testimonial-slider__cite">
+                            <strong>OpenStack Cloud Infrastructure & Web Application</strong>
+                            <span>Team of 5</span>
+                        </cite>
+                    </div>
+                    <p>
+                        Built a complete cloud infrastructure using <strong>OpenStack</strong> 
+                        (Controller Node with Keystone, Glance, Nova Scheduler, Horizon; Compute Node with Nova Compute, Neutron Agent, Cinder).  
+                        Developed a <strong>Spring Boot + Angular</strong> web application, containerized it with 
+                        <strong>Docker</strong>, orchestrated it with <strong>Kubernetes</strong>, and deployed it on our private OpenStack cloud.
+                    </p>
+                </div> <!-- end slide -->
+
+                <!-- Project 2: Diabety App -->
+                <div class="testimonial-slider__slide swiper-slide">
+                    <div class="testimonial-slider__author">
+                        <cite class="testimonial-slider__cite">
+                            <strong>Diabety – Health Management Application</strong>
+                            <span>Team of 5</span>
+                        </cite>
+                    </div>
+                    <p>
+                        Designed and developed <strong>Diabety</strong>, a health platform for diabetic patients, using <strong>Symfony</strong>. 
+                        Features include communication with doctors, food intake tracking, intelligent initial health risk testing, 
+                        and medication reminders. The application helps patients manage their daily routine and improves doctor-patient communication.
+                    </p>
+                </div> <!-- end slide -->
+
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</div>
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some highlights from the projects I contributed to during my internships. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+ <!-- Trigger (List Item with Image) -->
+<!-- Trigger -->
+
+
+
+
+ <!--end folio-list__item -->
+<!-- List Item (Trigger) -->
+<!-- Trigger -->
+<li class="folio-list__item column" data-animate-el>
+  <a href="#" class="folio-list__item-link" data-modal-target="modal-02">
+    <div class="folio-list__item-pic">
+      <img src="images/work/deepera1.png" alt="">
+    </div>
+    <div class="folio-list__item-text">
+      <div class="folio-list__item-cat">Internship Project</div>
+      <div class="folio-list__item-title">Trading Dashboard (Deepera.AI)</div>
+    </div>
+  </a>
+</li>
+
+<!-- Modal -->
+<div id="modal-02" class="modal-popup modal-hidden">
+  <div class="modal-popup__content">
+    <button class="modal-close" aria-label="Close modal">×</button>
+
+    <div class="modal-popup__gallery large-images" data-slider>
+      <img src="images/work/deepera1.png" alt="Dashboard Overview" class="slider-image active">
+      <img src="images/work/deepera2.png" alt="Data Visualization Module" class="slider-image">
+      <img src="images/work/deepera3.png" alt="Trading Data Interface" class="slider-image">
+    </div>
+
+    <button class="slider-btn prev-btn" aria-label="Previous">&#10094;</button>
+    <button class="slider-btn next-btn" aria-label="Next">&#10095;</button>
+
+    <div class="modal-popup__desc">
+      <h5>Trading Dashboard – Deepera.AI</h5>
+      <p>
+        During my internship at <strong>Deepera.AI</strong>, I built a real-time trading dashboard with Angular and Python APIs.
+        Above are screenshots showcasing key components like dynamic charts, clean dashboards, and trading data insights.
+      </p>
+      <ul class="modal-popup__cat">
+        <li>Angular</li>
+        <li>Python</li>
+        <li>REST APIs</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<li class="folio-list__item column" data-animate-el>
+  <a href="#" class="folio-list__item-link" data-modal-target="modal-03">
+    <div class="folio-list__item-pic">
+      <img src="images/work/fcit1.png" alt="FCIT Internship Thumbnail">
+    </div>
+    <div class="folio-list__item-text">
+      <div class="folio-list__item-cat">Internship Project</div>
+      <div class="folio-list__item-title">FCIT Internship</div>
+    </div>
+  </a>
+</li>
+<div id="modal-03" class="modal-popup modal-hidden">
+  <div class="modal-popup__content">
+    <button class="modal-close" aria-label="Close modal">×</button>
+
+    <div class="modal-popup__gallery large-images" data-slider>
+      <img src="images/work/fcit1.png" alt="FCIT Screenshot 1" class="slider-image active">
+      <img src="images/work/fcit2.png" alt="FCIT Screenshot 2" class="slider-image">
+      <img src="images/work/fcit3.png" alt="FCIT Screenshot 3" class="slider-image">
+      <img src="images/work/fcit4.png" alt="FCIT Screenshot 2" class="slider-image">
+      <img src="images/work/fcit5.png" alt="FCIT Screenshot 3" class="slider-image">
+      <img src="images/work/fcit6.png" alt="FCIT Screenshot 2" class="slider-image">
+      <img src="images/work/fcit7.png" alt="FCIT Screenshot 3" class="slider-image">
+      <img src="images/work/fcit8.png" alt="FCIT Screenshot 2" class="slider-image">
+      <img src="images/work/fcit9.png" alt="FCIT Screenshot 3" class="slider-image">
+      <img src="images/work/fcit10.png" alt="FCIT Screenshot 2" class="slider-image">
+      <img src="images/work/fcit11.png" alt="FCIT Screenshot 3" class="slider-image">
+      <img src="images/work/fcit12.png" alt="FCIT Screenshot 2" class="slider-image">
+    </div>
+
+    <button class="slider-btn prev-btn" aria-label="Previous">&#10094;</button>
+    <button class="slider-btn next-btn" aria-label="Next">&#10095;</button>
+
+<div class="modal-popup__desc">
+  <h5>FCIT Internship</h5>
+  <p>
+    During my internship at <strong>FCIT</strong>, I developed an online education platform to support enterprise training and recruitment. The images above illustrate features such as test systems, training dashboards, and user management modules.
+  </p>
+  <ul class="modal-popup__cat">
+    <li>Python</li>
+    <li>MEAN Stack</li>
+  </ul>
+</div>
+
+  </div>
+</div>
+
+
+
+
+<li class="folio-list__item column" data-animate-el>
+  <a href="#" class="folio-list__item-link" data-modal-target="modal-dpc">
+    <div class="folio-list__item-pic">
+      <img src="images/work/dpc3.png" alt="Restaurant App">
+    </div>
+    <div class="folio-list__item-text">
+      <div class="folio-list__item-cat">Internship Project</div>
+      <div class="folio-list__item-title">Restaurant Review App (DPC)</div>
+    </div>
+  </a>
+</li>
+<!-- Modal -->
+<div id="modal-dpc" class="modal-popup modal-hidden">
+  <div class="modal-popup__content">
+    <button class="modal-close" aria-label="Close modal">×</button>
+
+    <div class="modal-popup__gallery large-images" data-slider>
+      <img src="images/work/dpc1.png" alt="Review Submission Page" class="slider-image active">
+      <img src="images/work/dpc2.png" alt="Restaurant List View" class="slider-image">
+      <img src="images/work/dpc3.png" alt="Review Analytics" class="slider-image">
+      <img src="images/work/dpc4.png" alt="Restaurant List View" class="slider-image">
+      <img src="images/work/dpc5.png" alt="Review Analytics" class="slider-image">
+      <img src="images/work/dpc6.png" alt="Restaurant List View" class="slider-image">
+      <img src="images/work/dpc7.png" alt="Review Analytics" class="slider-image">
+    </div>
+
+    <button class="slider-btn prev-btn" aria-label="Previous">&#10094;</button>
+    <button class="slider-btn next-btn" aria-label="Next">&#10095;</button>
+
+    <div class="modal-popup__desc">
+      <h5>Restaurant Review App – DPC Internship</h5>
+      <p>
+        During my internship at <strong>DPC</strong>, I contributed to the design and development of a web application focused on restaurant evaluations.
+        The platform allows users to rate and review restaurants, offering an interactive and user-friendly experience.
+      </p>
+      <p>
+        I developed key frontend components using Angular, enabling users to browse and submit restaurant reviews seamlessly. On the backend, I implemented RESTful APIs with Spring Boot to manage ratings, feedback, and data operations. The result was a responsive and reliable app with smooth integration between the frontend and backend.
+      </p>
+      <ul class="modal-popup__cat">
+        <li>Angular</li>
+        <li>Spring Boot</li>
+        <li>REST APIs</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<li class="folio-list__item column" data-animate-el>
+  <a href="#" class="folio-list__item-link" data-modal-target="modal-jira">
+    <div class="folio-list__item-pic">
+      <img src="images/work/neoxam1.png" alt="Jira Management System">
+    </div>
+    <div class="folio-list__item-text">
+      <div class="folio-list__item-cat">Internship Project</div>
+      <div class="folio-list__item-title">Jira Ticket Management System</div>
+    </div>
+  </a>
+</li>
+
+<!-- Modal -->
+<div id="modal-jira" class="modal-popup modal-hidden">
+  <div class="modal-popup__content">
+    <button class="modal-close" aria-label="Close modal">×</button>
+
+    <div class="modal-popup__gallery large-images" data-slider>
+      <img src="images/work/neoxam1.png" alt="Dashboard Overview" class="slider-image active">
+      <img src="images/work/neoxam2.png" alt="Module & Feature Tracking" class="slider-image">
+      <img src="images/work/neoxam3.png" alt="Charts & Analytics" class="slider-image">
+      <img src="images/work/neoxam4.png" alt="Excel Upload & Management" class="slider-image">
+      <img src="images/work/neoxam5.png" alt="Excel Upload & Management" class="slider-image">
+    </div>
+
+    <button class="slider-btn prev-btn" aria-label="Previous">&#10094;</button>
+    <button class="slider-btn next-btn" aria-label="Next">&#10095;</button>
+
+    <div class="modal-popup__desc">
+      <h5>Jira Ticket Management Platform – Internship at Neoxam</h5>
+      <p>
+        As part of my internship at <strong>Neoxam</strong>, I designed and developed a complete web-based solution to help HR and managerial teams analyze Jira tickets efficiently. 
+        The platform enables visualization of employee activity by module and feature using dynamic charts and dashboards.
+      </p>
+      <p>
+        I built a full-stack application using <strong>Angular</strong> and <strong>Spring Boot</strong>, and implemented a complete <strong>CI/CD pipeline</strong> using <strong>Jenkins</strong>, <strong>Docker</strong>, and Git for deployment and automation. 
+        Additionally, I developed a <strong>Python-based recommendation model</strong> to suggest optimal assignees based on ticket history and module expertise.
+      </p>
+      <p>
+        Due to the sensitivity of the internal company data, only a limited number of non-confidential screenshots are presented here to showcase the design and core features.
+      </p>
+      <ul class="modal-popup__cat">
+        <li>Angular</li>
+        <li>Spring Boot</li>
+        <li>Python (ML)</li>
+        <li>CI/CD – Jenkins & Docker</li>
+        <li>Chart.js</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I’m always open to connecting! Whether you have a question about my projects, want to talk about software development, internships, or tech in general — feel free to reach out.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <p  class="mailtoui">zarrouk.abderrhmen@gmail.com</p>
+                            <p >+216 29 972 276</p>
+                        </p>
+                    </div>
+                  
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block" >
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://www.linkedin.com/in/abderrahmen-zarrouk-7895541ba/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/abderrahmen_zarrouk/" target="_blank">Instagram</a></li>
+                            <li><a href="https://github.com/abderrahmenzarrouk" target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Open modal on click
+  document.querySelectorAll('.folio-list__item-link[data-modal-target]').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = link.getAttribute('data-modal-target');
+
+      // Hide all modals
+      document.querySelectorAll('.modal-popup').forEach(modal => modal.classList.add('modal-hidden'));
+
+      // Show target modal
+      const modal = document.getElementById(targetId);
+      if (modal) modal.classList.remove('modal-hidden');
+    });
+  });
+
+  // Close modal on close button
+  document.querySelectorAll('.modal-close').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.closest('.modal-popup').classList.add('modal-hidden');
+    });
+  });
+
+  // Slider logic inside modals
+  document.querySelectorAll('.modal-popup').forEach(modal => {
+    const images = modal.querySelectorAll('.slider-image');
+    const prevBtn = modal.querySelector('.prev-btn');
+    const nextBtn = modal.querySelector('.next-btn');
+    let currentIndex = 0;
+
+    if (!images.length || !prevBtn || !nextBtn) return;
+
+    const showImage = (index) => {
+      images.forEach((img, i) => {
+        img.classList.toggle('active', i === index);
+      });
+    };
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    });
+
+    showImage(currentIndex);
+  });
+});
+</script>
+<script>
+  var swiper = new Swiper('.testimonial-slider', {
+    slidesPerView: 1,        // <--- Important
+    spaceBetween: 0,         // remove gap
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+</script>
+</body>
+
+
+</html>
