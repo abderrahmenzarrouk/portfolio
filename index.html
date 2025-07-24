@@ -497,7 +497,7 @@ I'm open to exciting opportunities where I can contribute, grow, and be part of 
 </li>
 
 <!-- Modal -->
-<div id="modal-02" class="modal-popup modal-hidden">
+<div id="modal-02" class="modal-popup modal-hidden" aria-hidden="true">
   <div class="modal-popup__content">
     <button class="modal-close" aria-label="Close modal">×</button>
 
@@ -538,7 +538,7 @@ I'm open to exciting opportunities where I can contribute, grow, and be part of 
     </div>
   </a>
 </li>
-<div id="modal-03" class="modal-popup modal-hidden">
+<div id="modal-03" class="modal-popup modal-hidden" aria-hidden="true">
   <div class="modal-popup__content">
     <button class="modal-close" aria-label="Close modal">×</button>
 
@@ -589,7 +589,7 @@ I'm open to exciting opportunities where I can contribute, grow, and be part of 
   </a>
 </li>
 <!-- Modal -->
-<div id="modal-dpc" class="modal-popup modal-hidden">
+<div id="modal-dpc" class="modal-popup modal-hidden" aria-hidden="true">
   <div class="modal-popup__content">
     <button class="modal-close" aria-label="Close modal">×</button>
 
@@ -637,7 +637,7 @@ I'm open to exciting opportunities where I can contribute, grow, and be part of 
 </li>
 
 <!-- Modal -->
-<div id="modal-jira" class="modal-popup modal-hidden">
+<div id="modal-jira" class="modal-popup modal-hidden " aria-hidden="true">
   <div class="modal-popup__content">
     <button class="modal-close" aria-label="Close modal">×</button>
 
@@ -800,6 +800,49 @@ document.addEventListener("DOMContentLoaded", () => {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Get all modal triggers (links/buttons with data-modal-target)
+  const modalTriggers = document.querySelectorAll('[data-modal-target]');
+  
+  modalTriggers.forEach(trigger => {
+    trigger.addEventListener('click', e => {
+      e.preventDefault();
+      const modalId = trigger.getAttribute('data-modal-target');
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.remove('modal-hidden');
+        modal.setAttribute('aria-hidden', 'false');
+      }
+    });
+  });
+
+  // Get all modal close buttons
+  const modalCloses = document.querySelectorAll('.modal-close');
+
+  modalCloses.forEach(closeBtn => {
+    closeBtn.addEventListener('click', () => {
+      const modal = closeBtn.closest('.modal-popup');
+      if (modal) {
+        modal.classList.add('modal-hidden');
+        modal.setAttribute('aria-hidden', 'true');
+      }
+    });
+  });
+
+  // Optional: close modal if clicked outside content
+  document.querySelectorAll('.modal-popup').forEach(modal => {
+    modal.addEventListener('click', e => {
+      if (e.target === modal) { // clicked outside modal content
+        modal.classList.add('modal-hidden');
+        modal.setAttribute('aria-hidden', 'true');
+      }
+    });
+  });
+});
+
 
 </script>
 </body>
