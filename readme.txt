@@ -1,132 +1,54 @@
-==================================================================================================
+# Abderrahmen Zarrouk – Portfolio
 
-DESCRIPTION:
+Welcome to my portfolio repository!  
+I am a Full-Stack Developer with hands-on experience in modern web technologies, cloud infrastructure, and DevOps practices. Passionate about building scalable applications and optimizing development workflows through automation.
 
-LUTHER is a modern, stylish, free personal website template designed for creative individuals 
-and professionals. It is the perfect template if you wish to build an online presence and create 
-a strong first impression on all your site visitors. Luther will help you craft a personal 
-professional website wherein you can showcase your works, talents, and present yourself on the 
-web in the best possible light. On top of that, the template is versatile and easy to customize 
-so with some modifications and a bit of creativity you even use it as a portfolio site for 
-digital studios or a landing page for your projects.
+---
 
-==================================================================================================
+## 🚀 About Me
 
+- Engineering Degree in Computer Science from ESPRIT, Tunisia  
+- Strong background in Angular, Spring Boot, Python, and MEAN stack development  
+- Experience with containerization (Docker), orchestration (Kubernetes), and cloud platforms (OpenStack)  
+- Skilled in designing RESTful APIs, CI/CD pipelines, and real-time data visualization  
+- Enthusiast of clean code, scalable architecture, and continuous learning
 
-LICENSE:
+---
 
-This free resource is provided by styleshout.com and is free to use in 
-both personal and commercial projects.
+## 💻 Skills
 
+**Languages:** Java, Python, JavaScript, TypeScript  
+**Frontend:** Angular, MEAN Stack  
+**Backend:** Spring Boot, Flask, REST APIs  
+**DevOps & Cloud:** Docker, Kubernetes, Jenkins, OpenStack, CI/CD  
+**Databases:** MySQL, MongoDB
 
-Rights:
--------
+---
 
-You are permitted to use this free resource in any number of personal and commercial projects for 
-yourself or a client. You may modify the resource according to your requirements and include them 
-in your projects under the following condition - you MUST give appropriate credit, provide an 
-attribution link to styleshout.com.
+## 📂 Projects
 
+### [Full-Stack Ticket Management Platform](link-to-project)  
+- Built a full-stack ticket management and visualization platform using Angular, Spring Boot, and Chart.js.  
+- Developed RESTful APIs with audit logging for Jira integration.  
+- Automated data extraction and created machine learning models for intelligent task assignment.
 
-Prohibitions:
--------------
+### [Cloud Infrastructure & Web App](link-to-project)  
+- Built a private cloud infrastructure using OpenStack components.  
+- Developed a Spring Boot + Angular app deployed via Docker and Kubernetes.  
+- Integrated Prometheus and Grafana for monitoring and alerting.
 
-You are not permitted to resell or redistribute(even for free) the resource "as is" without 
-prior consent. If you would like to republish or promote this resource on your site, please 
-link back to the appropriate resource page on styleshout.com where users can find the download 
-and not directly to the download zip file.
+### [Restaurant Review Platform](link-to-project)  
+- Crafted responsive Angular interfaces with Spring Boot backend APIs for secure data processing.
 
+### [Educational Platform with Adaptive Testing](link-to-project)  
+- Developed a MEAN stack platform with adaptive tests and Python-based data scrapers.
 
-Attribution: 
-------------
+---
 
-You must include a credit link to our website(https://www.styleshout.com) somewhere on your site. 
-We prefer the footer credit that comes with the template but you are still free to move it 
-somewhere else.
+## 📫 Contact Me
 
+- Email: zarrouk.abderrhmen@gmail.com  
+- LinkedIn: https://linkedin.com/in/abderrahmen-zarrouk 
+---
 
-
-If you have any questions about the License, feel free to contact us.
-
-
------------------------------------------------------------------------------------------------------
-
-
-REMOVING THE ATTRIBUTION LINK:
-
-We understand that there are situations where you want to use our templates without 
-the crediting obligation. If that's your case, you can always send us a 
-credit removal fee of 10 USD through Paypal. This will allow you to use a single 
-template attribution/credit link free on ONE DOMAIN name.
-
-You can send your payments through Paypal to this address: ealigam@gmail.com or
-visit our attribution removal page: https://www.styleshout.com/attribution-free/ 
-and click the pay button on the page.
-
-If possible, kindly send us the site's url where the template is being used. 
-Also, keep your Paypal receipt as proof of payment and your good to go.
-
-
------------------------------------------------------------------------------------------------------- 
-
-
-SUPPORT:
-    
-Since LUTHER is distributed for free, support is not offered. LUTHER is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
-
- - https://marksheet.io/
- - http://learn.shayhowe.com/html-css/
-
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-javascript in your skill-set, you can also check out these tutorials: 
-
- - https://www.codecademy.com/learn/introduction-to-javascript
- - https://javascript.info/
-
-
-
------------------------------------------------------------------------------------------------------- 
-
-
-GET THE LATEST VERSION:
-
-We update our templates on a regular basis so to make sure that you have the latest version, 
-always download the template files directly on our website(https://www.styleshout.com/)
-
-
-
--------------------------------------------------------------------------------------------------------
-
-
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
-
-Fonts:
- - Public Sans Font (https://fonts.google.com/specimen/Public+Sans)
- - DM Serif Display (https://fonts.google.com/specimen/DM+Serif+Display)
-
-Icons:
- - Iconmonstr (https://iconmonstr.com/)
-
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
- 
-Javascript Files:
- - Anime.js (https://animejs.com/)
- - Swiper (https://swiperjs.com/)
- - MoveTo.js (https://github.com/hsnaydd/moveTo)
- - Prism.js (https://prismjs.com/)
- - Basic Lightbox (https://basiclightbox.electerious.com/)
- - MailtoUI (https://mailtoui.com/)
-
--------------------------------------------------------------------------------------------------------
-
-
-Thanks for downloading from Styleshout :)
-
-
+Thank you for visiting my portfolio! Feel free to explore my projects and reach out if you want to collaborate or have any questions.
